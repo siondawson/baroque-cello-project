@@ -1,0 +1,26 @@
+/* FONTS */
+
+#wsite-title {
+  font-family: "Quattrocento", serif !important;
+  font-weight: 400 !important;
+  font-size: 50px;
+}
+
+.wsite-menu-default a {
+  font-family: "Dosis", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+/* HOME PAGE */
+.hero-banner {
+  width: 100%;
+  height: 33vh;
+  overflow: hidden;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
