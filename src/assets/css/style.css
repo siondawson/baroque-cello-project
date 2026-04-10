@@ -24,3 +24,79 @@
   object-fit: cover;
   display: block;
 }
+
+.thought-piece {
+  max-width: 1200px;
+}
+
+.thought-piece p {
+  margin-bottom: 1.5rem;
+  line-height: 1.8;
+}
+
+.thoughts-index {
+  max-width: 900px;
+}
+
+.thoughts-intro {
+  max-width: 700px;
+}
+
+.maker-group {
+  padding: 1.75rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.maker-group:last-child {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.maker-group h2 {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+/* THOUGHTS */
+
+.thought-links a {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  text-decoration: none;
+  color: inherit;
+  padding: 0.5rem 0;
+  transition: padding 0.2s ease, color 0.2s ease, opacity 0.2s ease;
+}
+
+.thought-links a::after {
+  content: "→";
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.thought-links a:hover {
+  color: #000;
+  padding-left: 0.4rem;
+  opacity: 1;
+}
+
+.thought-links a:hover::after {
+  opacity: 1;
+  transform: translateX(4px);
+}
+
+.thought-links a span {
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #666;
+}
+
+@media (min-width: 768px) {
+  .thought-links a {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+}
+
