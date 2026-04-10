@@ -113,3 +113,27 @@
   width: 100%;
   height: auto;
 }
+
+
+/* GALLERY */
+.part-gallery {
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+.part-gallery .swiper-slide {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.part-gallery .swiper-slide img {
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}

@@ -19,27 +19,43 @@ metaDescription: "Presentation materials for Part I of In Audible: The Baroque C
 </section>
 
 
-    <section class="mb-5">
-      <h2 class="h4 mb-3">Gallery</h2>
+<section class="mb-5">
+  <h2 class="h4 mb-3">Gallery</h2>
 
-      <div class="swiper part-gallery">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img src="/assets/images/gallery/placeholder-1.jpg" alt="" class="img-fluid w-100">
-          </div>
-          <div class="swiper-slide">
-            <img src="/assets/images/gallery/placeholder-2.jpg" alt="" class="img-fluid w-100">
-          </div>
-          <div class="swiper-slide">
-            <img src="/assets/images/gallery/placeholder-3.jpg" alt="" class="img-fluid w-100">
-          </div>
-        </div>
-
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-pagination"></div>
+  <div class="swiper part-gallery">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="/assets/images/part-i-gallery/part-i-performance.jpg" alt="Part I performance" class="img-fluid w-100">
       </div>
-    </section>
+      <div class="swiper-slide">
+        <img src="/assets/images/part-i-gallery/part-i-performance-end.jpg" alt="Part I performance end" class="img-fluid w-100">
+      </div>
+    </div>
+
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    new Swiper(".part-gallery", {
+      loop: true,
+      slidesPerView: 1,
+      spaceBetween: 24,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      }
+    });
+  });
+</script>
+
 
     <section class="mb-5">
       <h2 class="h4 mb-3">Audio Extract</h2>
@@ -61,3 +77,6 @@ metaDescription: "Presentation materials for Part I of In Audible: The Baroque C
     </section>
   </div>
 </section>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
