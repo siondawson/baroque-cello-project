@@ -100,3 +100,16 @@
   }
 }
 
+
+/* PART II NOTES */
+
+
+.presentation-notes {
+  max-width: 980px;
+}
+
+.presentation-notes-image {
+  max-width: 220px;
+  width: 100%;
+  height: auto;
+}
