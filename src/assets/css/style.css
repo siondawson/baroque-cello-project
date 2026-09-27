@@ -17,6 +17,10 @@ h1, h2, h3 {
   font-size: 50px;
 }
 
+.title-small {
+  font-size: xx-large;
+}
+
 /* HOME PAGE */
 .hero-banner {
   width: 100%;
