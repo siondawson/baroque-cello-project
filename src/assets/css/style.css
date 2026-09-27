@@ -39,10 +39,10 @@ h1, h2, h3 {
   max-width: 1200px;
 }
 
-.thought-piece p {
-  margin-bottom: 1.5rem;
+/* .thought-piece p {
+  margin-bottom: 1.5rem; 
   line-height: 1.8;
-}
+} */
 
 .thoughts-index {
   max-width: 900px;
